@@ -1,0 +1,10 @@
+.hero{
+    margin:60px 25px ;
+    @media screen and (min-width:600px) {
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: 920px;
+        max-height: 500px;
+        margin: 0px;
+    }
+}
